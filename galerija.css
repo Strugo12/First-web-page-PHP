@@ -1,0 +1,156 @@
+body {
+    
+    background-size: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+#naslov{
+    margin-top: 20px;
+    border-radius: 30px;
+    font-size: 35px;
+    height: 100px;
+    box-shadow:1px 2px 10px black;
+    text-align: center;
+    text-shadow: 2px 2px;
+    background-image: url("galerija/logo.jpg");
+    background-size: 50%;
+}
+
+
+
+* {
+    box-sizing: border-box;
+  }
+  
+  #meni #togler{
+    float: right;
+    text-align: right;
+    margin-right: 10px;
+    margin-top: 5px;
+    
+  }
+
+  .row{
+      margin-top: 180px;
+      width: 98%;
+      text-align: center;
+      margin-left: 12px;
+      box-shadow: 1px 1px 1px 3px black;
+  }
+  .column {
+    float: left;
+    width: 25%;
+    padding: 5px;
+  }
+  .column img{
+    width:100%; 
+    height:300px;
+    border-radius: 7px;
+  }
+
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+ 
+
+header{
+    text-align: center;
+    height: 50px;
+    width: 100%;
+    border-radius: 10px;
+    }
+    
+    #meni {
+      width: 60%;
+      float: right;
+      margin-top: 10px;
+      list-style-type: none;
+      
+      
+      border-radius: 30px;
+      font-size: 21px;
+   
+ }
+
+
+#slika_logo{
+  text-align: left;
+  height: 90px;
+  background-color:#696969;
+  padding: 10px;
+  border-radius: 30px;
+  margin-top: 10px;
+}
+
+    #slika_logo img{
+        margin-left: 20px;
+        width:200px;
+        height:60px;
+        margin-top: 4px;
+    }
+    
+    #lista_meni a:link {
+        color:aquamarine;
+        font-size: 30px;
+        margin: 15px;
+        padding: 10px;
+        
+        
+      } 
+      
+    #lista_meni a:hover{
+          color:rgb(10, 10, 10);
+          border-width: 10px;
+          border-color: rgb(19, 17, 17);
+    
+      }
+    
+    #lista_meni a:visited {
+          color:black;
+      }
+      footer{
+          margin-top: 10px;
+          
+          height: 300px;
+          background-image: url("galerija/footer\ .jpg");
+          background-size: 100%;
+         
+        
+      }
+
+#odlomak{
+    width: 50%;
+    text-align: center;
+    font-weight: bold;
+    font-size: 22px;
+
+}
+
+.middle{
+    text-align: center;
+    float: right;
+    width: 50%;
+    text-align: center;
+    font-size: 22px;
+  }
+
+  .bold{
+    font-weight: bold; 
+  }
+
+  .foot{
+      margin-top: 10px;
+    background-color: whitesmoke;
+    height: 80px;
+    text-align: center;
+  }
+
+  hr{
+    height:7px;
+    border-width:0;
+    color:gray;
+    background-color:gray
+  }

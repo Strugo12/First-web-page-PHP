@@ -1,0 +1,131 @@
+header{
+    text-align: center;
+    height: 50px;
+    width: 100%;
+    border-radius: 10px;
+    }
+    
+    #meni {
+      width: 60%;
+      float: right;
+      text-align: right;
+      list-style-type: none;
+      height: 80px;
+      margin-top: 10px;
+      background-color:#696969;
+      border-radius: 30px;
+      font-size: 21px;
+   
+ }
+
+#meni #togler{
+  float: right;
+  text-align: right;
+  margin-right: 10px;
+
+
+}
+
+#slika_logo{
+  margin-top: 10px;
+  text-align: left;
+  height: 90px;
+  background-color:#696969;
+  padding: 10px;
+  border-radius: 30px;
+}
+    #slika_logo img{
+        margin-left: 20px;
+        width:200px;
+        height:60px;
+        margin-top: 4px;
+    }
+    
+#meni li{
+
+ font-size: 20px;
+ 
+ 
+}
+
+      
+      #naslov{
+        margin-top: 10px;
+        border-radius: 30px;
+        font-size: 35px;
+        height: 100px;
+        box-shadow:1px 2px 10px black;
+        text-align: center;
+        text-shadow: 2px 2px;
+        background-image: url("galerija/logo.jpg");
+        background-size: 50%;
+    }
+
+    #naslov h1{
+        font-size: 60px;
+        color: black;
+    }
+
+    .tekst{
+     
+      
+        font-size: 20px;
+    }
+
+    .odlomak{
+        font-size: 20px;
+        height: 340px;
+        width: 80%;
+        margin-top: 160px;
+        text-align: center;
+        margin-left: 150px;
+        
+    }
+
+  .container{
+      text-align: center;
+  }
+
+   #odlomakk{
+    width: 50%;
+    text-align: center;
+    font-weight: bold;
+    font-size: 22px;
+    background-color: whitesmoke;
+    height: 348px;
+}
+
+.midle{
+    text-align: center;
+    background-color: whitesmoke;
+    float: right;
+    width: 50%;
+    text-align: center;
+    font-size: 22px;
+    height: 348px;
+    margin-top: 8px;
+  }
+
+  .bold{
+    font-weight: bold; 
+  }
+
+  .foot{
+    background-color: whitesmoke;
+    height: 80px;
+    text-align: center;
+  }
+
+ .foot hr{
+    height:9px;
+    border-width:0;
+    color:gray;
+    background-color:gray
+  }
+
+  footer{
+   margin-top: 20px;
+    height: 370px;
+    background-color: whitesmoke;
+    background-size: 100%;7
+}

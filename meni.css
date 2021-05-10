@@ -1,0 +1,131 @@
+header{
+    text-align: center;
+    height: 50px;
+    width: 100%;
+    border-radius: 10px;
+    }
+    
+    #meni {
+      width: 60%;
+      float: right;
+      text-align: right;
+      list-style-type: none;
+      height: 80px;
+      margin-top: 10px;
+      background-color:#696969;
+      border-radius: 30px;
+      font-size: 21px;
+   
+ }
+
+body{
+  background-image: url("background.jpg");
+      background-size: 768px;
+      
+}
+
+#meni #togler{
+  float: right;
+  text-align: right;
+  margin-right: 10px;
+  margin-top: 5px;
+}
+
+#slika_logo{
+  margin-top: 10px;
+  text-align: left;
+  height: 90px;
+  background-color:#696969;
+  padding: 10px;
+  border-radius: 30px;
+}
+
+    #slika_logo img{
+        margin-left: 20px;
+        width:200px;
+        height:60px;
+        margin-top: 4px;
+    }
+    
+    #lista_meni a:link {
+        color:aquamarine;
+        font-size: 30px;
+        margin: 15px;
+        padding: 10px;
+        
+        
+      } 
+      
+    #lista_meni a:hover{
+          color:rgb(10, 10, 10);
+          border-width: 10px;
+          border-color: rgb(19, 17, 17);
+    
+      }
+    
+    #lista_meni a:visited {
+          color:black;
+      }
+
+      #naslov{
+        margin-top: 10px;
+        border-radius: 30px;
+        font-size: 35px;
+        height: 100px;
+        box-shadow:1px 2px 10px black;
+        text-align: center;
+        text-shadow: 2px 2px;
+        background-image: url("galerija/logo.jpg");
+        background-size: 50%;
+    }
+
+    footer{
+        margin-top: 10px;
+        
+        height: 300px;
+        background-image: url("galerija/footer\ .jpg");
+        background-size: 100%;
+       
+      
+    }
+
+#odlomak{
+  width: 50%;
+  text-align: center;
+  font-weight: bold;
+  font-size: 22px;
+
+}
+
+.middle{
+  text-align: center;
+  float: right;
+  width: 50%;
+  text-align: center;
+  font-size: 22px;
+  width: 50%;
+}
+
+.bold{
+  font-weight: bold; 
+}
+
+.foot{
+    margin-top: 20px;
+  background-color: whitesmoke;
+  height: 100px;
+  text-align: center;
+}
+
+hr{
+  height:7px;
+  border-width:0;
+  color:gray;
+  background-color:gray
+}
+
+.meni{
+
+  margin-top: 170px;
+  text-align: center;
+}
